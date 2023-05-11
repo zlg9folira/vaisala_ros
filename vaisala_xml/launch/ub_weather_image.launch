@@ -1,0 +1,30 @@
+<?ignore 
+# -----------  Launch file of UB weather image publisher --------------
+# Author:			Foad Hajiaghajani, Yuyang Bai
+# Email:			foadhaji[at]buffalo.edu
+# Institution:			University at Buffalo SUNY
+# Last Modified:		Mar 2022
+# -----------------------------------------------------------------------------------
+?>
+
+<launch>
+  <!--The following are 3 mandatory tuples for the Vaisala url setup-->
+  <param name="username" type="string" value="" />
+  <param name="password" type="string" value="" />
+  <param name="station" type="string" value="" />
+
+  <!--The following are 4 optional tuples for the Vaisala url setup-->
+  <!--Uncomment and filling the value to activate the tuple-->
+  <!-- param name="region" type="string" value=""/ -->
+  <!-- param name="cam" type="int" value=""/ -->
+  <!-- param name="earliesttime" type="string" value=""/ -->
+  <!-- param name="latesttime" type="string" value=""/ -->
+  <!-- param name="request_rate" type="int" value=""/ -->
+  <!-- param name="publish_rate" type="int" value=""/ -->
+  
+  
+
+  <node name="UB_weather_images" pkg="vaisala_xml" type="image_publisher.py" output="screen">
+  </node>
+
+</launch>

@@ -1,0 +1,45 @@
+{
+        "loc": [
+            {
+                "obs":{
+                    "station":"Helsinki Kumpula",
+                    "dist":"2 km S",
+                    "dt":"2020-10-22 09:20:00",
+                    "t":"9",
+                    "tf":"7",
+                    "s":"d410",
+                    "wn":"SE",
+                    "ws":"5",
+                    "p":"998.5",
+                    "rh":"97",
+                    "v":"6610"
+                 },
+                "fc": [
+                    {
+                        "dt":"2020-10-22",
+                        "s":"d430",
+                        "tx":"11",
+                        "tn":"8",
+                        "pr": "14.83",
+                        "wsx":"6",
+                        "cloudiness":100,
+                        "sunrise":null,
+                        "sunset":null,
+                        "sr":null
+                    },
+                    {
+                        "dt":"2020-10-23",
+                        "s":"d220",
+                        "tx":"11",
+                        "tn":"1",
+                        "pr": "5.91",
+                        "wsx":"6",
+                        "cloudiness":95,
+                        "sunrise":null,
+                        "sunset":null,
+                        "sr":null
+                    }
+                ]
+            }
+        ]
+    }

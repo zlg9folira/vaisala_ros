@@ -1,0 +1,21 @@
+<launch>
+  <!--The following are 3 mandatory tuples for the Vaisala url setup-->
+  <param name="longitude" type="double" value="20.00" />
+  <param name="latitude" type="double" value="15.00" />
+  <param name="key" type="string" value="" />
+
+  <!--The following are 7 optional tuples for the Vaisala url setup-->
+  <!--Uncomment and filling the value to activate the tuple-->
+  <!-- param name="altitude" type="double" value=""/ -->
+  <!-- param name="temp_unit" type="string" value=""/ -->
+  <!-- param name="wind_unit" type="string" value=""/ -->
+  <!-- param name="time_zone" type="string" value=""/ -->
+  <!-- param name="ftimes_length" type="int" value=""/ -->
+  <!-- param name="ftimes_timestep" type="int" value=""/ -->
+  <!-- param name="ftimes_firststep" type="int" value=""/ -->
+
+  
+  <node name="weather_info" pkg="vaisala_api" type="vaisala_msg_publisher.py" output="screen">
+  </node>
+
+</launch>
