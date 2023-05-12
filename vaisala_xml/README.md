@@ -1,13 +1,7 @@
-## Copyright
-Developers:
-******** Foad Hajiaghajani foadhaji@buffalo.edu	************************************
-******** Yuyang Bai yuyangba@buffalo.edu *******************************************
-******** University at Buffalo - The State University of New York ******************
-******** 2022 **********************************************************************
 
 ## VAISALA xml package
 
-This package implements ROS node to accquires information of Vaisala Webs service(https://www.vaisala.io) and send information to the specific topic. This package will publish three type of message: full version weather information(full_weather_info.msg), UB version weather information(ub_weather_info.msg) and UB weather images(Image.msg).Information ROS messages are defined in Vaisala_msgs.
+This package implements ROS node to obtain information of Vaisala XML API (https://www.vaisala.io) and publish to specific topics. This package publishes three types of messages: full version weather information(full_weather_info.msg), UB version weather information(ub_weather_info.msg) and UB weather images(Image.msg). ROS messages are defined in vaisala_msgs package.
 
 ##Installation
 
@@ -70,12 +64,10 @@ The default publish rate of this publisher is 10 HZ
 This scripts contains all the utility function that used in above publisher scripts. The detailed function explantion can be found in `utility.py`
 
 ##Meta
-Foad HAjiaghajani
-Yuyang Bai
-
-
-##Insititution
-University at Buffalo SUNY
+Foad HAjiaghajani  foadhaji@buffalo.edu
+Yuyang Bai yuyangba@buffalo.edu 
+University at Buffalo - The State University of New York
+2022
 
 ##Last update
 2022
