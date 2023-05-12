@@ -63,7 +63,7 @@ The default publish rate of this publisher is 10 HZ
 ### utility.py
 This scripts contains all the utility function that used in above publisher scripts. The detailed function explantion can be found in `utility.py`
 
-##Meta
+## Meta
 Foad HAjiaghajani  foadhaji@buffalo.edu
 Yuyang Bai yuyangba@buffalo.edu 
 University at Buffalo - The State University of New York
