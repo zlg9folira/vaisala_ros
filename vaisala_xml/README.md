@@ -65,11 +65,14 @@ This scripts contains all the utility function that used in above publisher scri
 
 ## Meta
 Foad HAjiaghajani  foadhaji@buffalo.edu
+
 Yuyang Bai yuyangba@buffalo.edu 
+
 University at Buffalo - The State University of New York
+
 2022
 
-##Last update
+## Last update
 2022
 
 
